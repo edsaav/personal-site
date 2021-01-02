@@ -41,3 +41,7 @@
 .social-links ul li.github {
   background-image: url('./../../images/github.svg');
 }
+
+.social-links ul li.medium {
+  background-image: url('./../../images/medium.svg');
+}

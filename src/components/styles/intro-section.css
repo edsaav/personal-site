@@ -4,7 +4,7 @@
   padding: 1rem;
 }
 
-.intro-section::before {
+.sidebar::before {
   content: "";
   background-image: url('./../../images/edward-saavedra.svg');
   background-size: contain;
@@ -15,16 +15,21 @@
   left: 0px;
   background-repeat: no-repeat;
   opacity: .3;
-  z-index: -100;
+}
+
+.intro-wrapper {
+  position: relative;
 }
 
 .intro-section img.profile-pic {
   display: block;
-  width: 30%;
+  width: 12vw;
+  height: 12vw;
   margin: 7rem auto 2rem auto;
   border-radius: .5rem;
   box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
   border: 3px solid #4f749e;
+  background-color: #dae9f8;
 }
 
 .intro-section h1 {
@@ -41,4 +46,11 @@
   padding: 1rem;
   max-width: 23rem;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 670px) {
+  .intro-section img.profile-pic {
+    width: 30vw;
+    height: 30vw;
+  }
 }

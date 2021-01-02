@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  background-color: #eeeeee;
+  background-color: #1f1f1f;
   color: #3d3d3d;
 }
 
@@ -14,9 +14,12 @@ a:hover {
   color: #000000;
 }
 
+.sidebar {
+  background-color: #eeeeee;
+}
+
 .footer {
   padding: 1rem 2rem;
-  background-color: #1f1f1f;
   color: #ffffff;
 }
 
