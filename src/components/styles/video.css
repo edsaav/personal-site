@@ -1,0 +1,59 @@
+.video {
+  position: relative;
+}
+
+.video .header {
+  color: #ffffff;
+  margin-left: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
+  width: 40%;
+  background-color: rgb(0, 0, 0, .8);
+  background-blend-mode: darken;
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+}
+
+.video .header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.video .header a {
+  padding: 1rem;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+.video .header a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: underline;
+}
+
+.video .header p {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 670px) {
+  .video .header {
+    color: #ffffff;
+    margin-left: 0;
+    padding: 1rem 2rem;
+    width: calc(100% - 4rem);
+    height: calc(100% - 2rem);
+    background-color: rgb(0, 0, 0, .6);
+    background-blend-mode: darken;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .video .header a {
+    position: absolute;
+    left: 2rem;
+    bottom: 1rem;
+  }
+}

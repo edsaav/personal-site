@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #eeeeee;
+  color: #3d3d3d;
+}
+
+a {
+  color: #3d3d3d;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.footer {
+  padding: 1rem 2rem;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 670px) {
+  .sidebar {
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .main-content {
+    width: 60%;
+    position: static;
+    margin-left: 40%;
+  }
+
+  .footer {
+    padding: 1rem 4rem;
+  }
+}

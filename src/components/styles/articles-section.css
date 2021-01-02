@@ -1,0 +1,38 @@
+.articles-section {
+  background-color: #1f1f1f;
+  padding: 4rem;
+}
+
+.articles-section h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 2rem;
+}
+
+.articles-section li {
+  margin-bottom: 1rem;
+}
+
+.articles-section li h3 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.articles-section li h3 a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.articles-section li aside {
+  color: #b4b4b4;
+  font-style: italic;
+}
+
+@media screen and (max-width: 670px) {
+  .articles-section {
+    background-color: #1f1f1f;
+    padding: 4rem 2rem;
+  }
+}

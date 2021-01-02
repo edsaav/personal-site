@@ -1,0 +1,43 @@
+.social-links {
+  margin: 3rem 0;
+}
+  
+.social-links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links ul li {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 .5rem;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.social-links ul li a {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  line-height: 0; 
+  font-size: 0;
+  color: transparent;
+}
+
+.social-links ul li:hover {
+  opacity: 1;
+}
+
+.social-links ul li.twitter {
+  background-image: url('./../../images/twitter.svg');
+}
+
+.social-links ul li.linkedin {
+  background-image: url('./../../images/linkedin.svg');
+}
+
+.social-links ul li.github {
+  background-image: url('./../../images/github.svg');
+}

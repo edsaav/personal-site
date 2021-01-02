@@ -1,0 +1,56 @@
+.story {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: block;
+  width: calc(100% - 8rem);
+  padding: 4rem;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.story .preview {
+  padding: 4rem 2.5rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.story h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 2rem;
+}
+
+.story p {
+  line-height: 1.8rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 3rem;
+}
+
+.story .preview a {
+  padding: 1rem;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+.story .preview a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: underline;
+}
+
+.story.bg-consulate {
+  background-image: url('./../../images/abstract-building.jpg');
+}
+
+@media screen and (max-width: 670px) {
+  .story {
+    padding: 4rem 0;
+    width: 100%;
+  }
+
+  .story .preview {
+    padding: 4rem 2rem;
+    background: rgba(0, 0, 0, 0.7);
+  }
+}

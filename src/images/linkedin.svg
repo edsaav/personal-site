@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="linkedin" fill="#000000" fill-rule="nonzero">
+            <path d="M87.978338,88 L87.978338,87.9962864 L88,87.9962864 L88,55.3089614 C88,39.3180933 84.6532138,27 66.478757,27 C57.7417317,27 51.8785378,31.9316937 49.4848817,36.6071472 L49.2321578,36.6071472 L49.2321578,28.4928771 L32,28.4928771 L32,87.9962864 L49.943395,87.9962864 L49.943395,58.5323877 C49.943395,50.7746256 51.3730901,43.2731036 60.7130424,43.2731036 C69.9158017,43.2731036 70.0529946,52.126385 70.0529946,59.0300134 L70.0529946,88 L87.978338,88 Z" id="Path"></path>
+            <polygon id="Path" points="3 29 20 29 20 88 3 88"></polygon>
+            <path d="M11,0 C4.92748092,0 0,4.90450699 0,10.9487135 C0,16.99292 4.92748092,22 11,22 C17.0725191,22 22,16.99292 22,10.9487135 C21.9961832,4.90450699 17.0687023,0 11,0 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
